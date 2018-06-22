@@ -7,7 +7,7 @@
 	<?php
 	$myfile = fopen("memory.txt", "a+");
 	echo fgets($myfile);
-	fwrite(5);
+	fwrite($myfile, 5);
 	fclose($myfile);
 	?>
 
