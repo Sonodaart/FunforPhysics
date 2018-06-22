@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-var i = 0;
-</script>
 	<meta http-equiv="refresh" content="5" >
 </head>
 <body>
 
   <script>
-  i++;
-    document.write(i);
+    function readTextFile() {
+  	var rawFile = new XMLHttpRequest();
+  	rawFile.open("GET", "testing.txt", true);
+  	rawFile.onreadystatechange = function() {
+    	if (rawFile.readyState === 4) {
+      	var allText = rawFile.responseText;
+      	document.getElementById("textSection").innerHTML = allText;
+    	}
+  	}
+  	rawFile.send();
+	}
   </script>
 
 </body>
