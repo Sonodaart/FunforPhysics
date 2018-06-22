@@ -6,8 +6,8 @@
 <body>
 	<?php
 	$myfile = fopen("memory.txt", "a+");
-	echo fgets($myfile);
 	fwrite($myfile, 5);
+	echo fgets($myfile);
 	fclose($myfile);
 	?>
 
