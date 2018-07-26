@@ -1,0 +1,42 @@
+.options {
+	display: block;
+  text-align:center;
+  text-decoration: none;
+  background: black;
+  float: center
+
+}
+a:link {
+  color: white;
+  background-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+  color: white;
+  padding: 16px
+}
+
+li a:hover{
+  background-color: #111111
+}
+
+.article {
+	background-color: white;
+	padding-left: 7px;
+	padding-right: 10px;
+}
