@@ -181,7 +181,7 @@ function mousePressed() {
     pezziNeri[0].isAValidMoveforBlack(9, 9);
     pezziBianchi[0].isAValidMoveforWhite(9, 9);
     // coloro le caselle in cui posso muovermi
-    for (q = 0; q < caselle.length; q++) {
+    /*for (q = 0; q < caselle.length; q++) {
       for (a = 0; a < mosseDisponibiliBianco.length; a++) {
         if (caselle[q].xx / 64 == mosseDisponibiliBianco[a].xx && caselle[q].yy / 64 == mosseDisponibiliBianco[a].yy) {
           caselle[q].selected = true;
@@ -190,7 +190,7 @@ function mousePressed() {
           caselle[q].selected = false;
         }
       }
-    }
+    }*/
   }
 }
 
