@@ -102,8 +102,8 @@ function setPieces() {
   pezziNeri = [];
   pezziBianchi = [];
   // blacks
-  /*for (i = 0; i < 8; i++)
-    pezziNeri.push(new Pezzo(i, 1, 64, imgpezzo[0], 0, "pawn", "black"));*/
+  for (i = 0; i < 8; i++)
+    pezziNeri.push(new Pezzo(i, 1, 64, imgpezzo[0], 0, "pawn", "black"));
   for (i = 0; i < 2; i++)
     pezziNeri.push(new Pezzo(3 * i + 2, 0, 64, imgpezzo[1], 1, "bishoop", "black"));
   for (i = 0; i < 2; i++)
@@ -114,7 +114,7 @@ function setPieces() {
   pezziNeri.push(new Pezzo(4, 0, 64, imgpezzo[5], 5, "king", "black"));
 
   //whites
-  /*for (i = 0; i < 8; i++)
+  for (i = 0; i < 8; i++)
     pezziBianchi.push(new Pezzo(i, 6, 64, imgpezzo[6], 6, "pawn", "white"));
   for (i = 0; i < 2; i++)
     pezziBianchi.push(new Pezzo(3 * i + 2, 7, 64, imgpezzo[7], 7, "bishoop", "white"));
@@ -122,7 +122,7 @@ function setPieces() {
     pezziBianchi.push(new Pezzo(5 * i + 1, 7, 64, imgpezzo[8], 8, "knight", "white"));
   for (i = 0; i < 2; i++)
     pezziBianchi.push(new Pezzo(i * 7, 7, 64, imgpezzo[9], 9, "rook", "white"));
-  pezziBianchi.push(new Pezzo(3, 7, 64, imgpezzo[10], 10, "queen", "white"));*/
+  pezziBianchi.push(new Pezzo(3, 7, 64, imgpezzo[10], 10, "queen", "white"));
   pezziBianchi.push(new Pezzo(4, 7, 64, imgpezzo[11], 11, "king", "white"));
 }
 
