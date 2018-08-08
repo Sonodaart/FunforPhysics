@@ -1026,6 +1026,11 @@ class Pezzo {
   move(endX, endY) {
     this.xx = endX;
     this.yy = endY;
+    if (this.yy == 0){
+      this.type = "queen";
+      this.baseValue = 1920;
+      this.img = imgPezzo[10];
+    }
   }
 }
 
