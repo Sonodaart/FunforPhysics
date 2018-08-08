@@ -1029,7 +1029,7 @@ class Pezzo {
     if (this.yy == 0){
       this.type = "queen";
       this.baseValue = 1920;
-      this.img = imgPezzo[10];
+      this.img = imgpezzo[10];
     }
   }
 }
